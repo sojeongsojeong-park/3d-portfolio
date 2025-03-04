@@ -16,7 +16,6 @@ import {
 	docker,
 	meta,
 	starbucks,
-	tesla,
 	shopify,
 	carrent,
 	jobit,
@@ -25,6 +24,7 @@ import {
 	growth,
 	curiosity,
 	collab,
+	purpleIo,
 } from '../assets';
 
 export const navLinks = [
@@ -120,14 +120,14 @@ const experiences = [
 	{
 		title: 'Frontend Developer',
 		company_name: 'Purple IO',
-		icon: starbucks,
+		icon: purpleIo,
 		iconBg: '#383E56',
 		date: 'Nov 2022 - Feb 2025',
 		points: [
-			'Developing and maintaining web applications using React.js and other related technologies.',
-			'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-			'Implementing responsive design and ensuring cross-browser compatibility.',
-			'Participating in code reviews and providing constructive feedback to other developers.',
+			'Enhanced user experience for one of Korea’s top 10 fashion e-commerce platforms through seamless UI, personalization, and CMS integration.',
+			'Led the frontend migration of a talent marketplace from PHP to React, delivering a redesigned UI, real-time chat, and enhanced e-commerce core features.',
+			'Developed the SDK and frontend for a no-code SaaS CRM, enabling personalized marketing through targeted popups and user triggers.',
+			'Enhanced stability by wrting unit & e2e tests using Jest, Vitest, Playwright.',
 		],
 	},
 ];
