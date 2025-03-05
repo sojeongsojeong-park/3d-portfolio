@@ -25,6 +25,9 @@ import {
 	curiosity,
 	collab,
 	purpleIo,
+	bookit,
+	jamongda,
+	travelog,
 } from '../assets';
 
 export const navLinks = [
@@ -161,54 +164,28 @@ const testimonials = [
 
 const projects = [
 	{
-		name: 'Car Rent',
-		description:
-			'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+		name: 'Bookit',
+		description: 'Mobile application for recording books',
 		tags: [
 			{
-				name: 'react',
+				name: 'Flutter',
 				color: 'blue-text-gradient',
 			},
 			{
-				name: 'mongodb',
+				name: 'hive',
 				color: 'green-text-gradient',
 			},
-			{
-				name: 'tailwind',
-				color: 'pink-text-gradient',
-			},
 		],
-		image: carrent,
-		source_code_link: 'https://github.com/',
+		image: bookit,
+		source_code_link:
+			'https://apps.apple.com/us/app/%EC%B1%85%EC%9E%87%EA%B8%B0-bookit/id6737536843',
 	},
 	{
-		name: 'Job IT',
-		description:
-			'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+		name: 'Jamongda',
+		description: `Web application for memorize vocabulary and testing words \n only supported on mobile devices`,
 		tags: [
 			{
-				name: 'react',
-				color: 'blue-text-gradient',
-			},
-			{
-				name: 'restapi',
-				color: 'green-text-gradient',
-			},
-			{
-				name: 'scss',
-				color: 'pink-text-gradient',
-			},
-		],
-		image: jobit,
-		source_code_link: 'https://github.com/',
-	},
-	{
-		name: 'Trip Guide',
-		description:
-			'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
-		tags: [
-			{
-				name: 'nextjs',
+				name: 'nextjs 14',
 				color: 'blue-text-gradient',
 			},
 			{
@@ -216,12 +193,33 @@ const projects = [
 				color: 'green-text-gradient',
 			},
 			{
-				name: 'css',
+				name: 'PandaCSS',
 				color: 'pink-text-gradient',
 			},
 		],
-		image: tripguide,
-		source_code_link: 'https://github.com/',
+		image: jamongda,
+		url: 'https://jamongda.netlify.app/',
+	},
+	{
+		name: 'travelog',
+		description:
+			"Web application for recording your travels by itinerary, gathering the places you've visited on a heatmap",
+		tags: [
+			{
+				name: 'react',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'recoil',
+				color: 'green-text-gradient',
+			},
+			{
+				name: 'styled-components',
+				color: 'pink-text-gradient',
+			},
+		],
+		image: travelog,
+		url: 'https://youtu.be/Zqd3_FhrXq4',
 	},
 ];
 

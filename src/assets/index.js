@@ -30,6 +30,9 @@ import purpleIo from './company/purpleio.svg';
 import carrent from './carrent.png';
 import jobit from './jobit.png';
 import tripguide from './tripguide.png';
+import travelog from './travelog.gif';
+import jamongda from './jamongda-main.png';
+import bookit from './bookit-main.jpeg';
 
 export {
 	logo,
@@ -43,6 +46,7 @@ export {
 	figma,
 	git,
 	html,
+	next,
 	javascript,
 	mongodb,
 	nodejs,
@@ -62,4 +66,7 @@ export {
 	growth,
 	curiosity,
 	purpleIo,
+	travelog,
+	jamongda,
+	bookit,
 };
